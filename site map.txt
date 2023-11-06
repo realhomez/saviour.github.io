@@ -1,0 +1,64 @@
+Road map for single page side of sinle page
+Navbar
+Hero 
+	Heading
+	Contact form
+About section and add read more button in it
+	Add table
+	Add cards
+Form Pop up open when I go scroll my site
+Key feature section
+	Left side image, Right side content
+	Why invest in this project section 
+		Left side content
+		Right side image
+	Spectification of project
+		In tabs
+Floor plan
+	Add table 3 column
+		Configuration
+		Size (sq)
+		Price 	when someone click on price form pop up will open
+	Amenities
+		3 card
+			Card details
+				Card heading 
+				Card content 
+				Read more section
+	About gaur
+	About realhomez
+	About place
+Location
+	Location advantage
+		Map
+		Location adv end button visit site means place this is the button when some one click on this contact form pop up
+		Near by card
+			Heading
+			Readmore
+		Faq
+		Footer content
+		Whatsapp icon when some one click on this redirect on wp
+		Scroll to top
+
+
+This is now blog page
+	all blogs show there
+		main content
+			imgae
+			down there heading
+			Date | author
+			content
+		right side bar
+			recent property heading
+	
+	singel blog page
+		main section
+			heading
+			author | date
+			image
+			contnet
+			contact form
+		footer
+			Site address
+			Site project logo 
+			Contect us

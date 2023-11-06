@@ -1,0 +1,229 @@
+.dataass p:not(:first-child) {
+    display: none;
+}
+.shadow1{
+    box-shadow: 1px 1px 15px 0 rgba(85, 85, 85, 0.205);
+}
+.key-featur-color{
+    background-color: #2b2a33;
+}
+/* .lists ul{
+    list-style-type: none;
+
+  }
+  
+.lists li {
+    margin: 0;
+  }
+*/
+.lists .color-red{
+    color: rgb(255, 35, 35);
+}  
+.bolder{
+    font-weight: 600;
+    margin-left: 25px;
+}
+.font-my-size{
+    font-size: 16px;
+    color: black !important;
+}
+.btn-dsn{
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    font-size:20px;
+}
+.book-btn{
+    padding: 5px;
+}
+.btn-color-my{
+    color: white;
+    background-color: rgb(245, 182, 100);
+    border-radius: 5px;
+
+}
+.btn-color-my:hover{
+    color: white;
+    background-color: rgb(245, 182, 100);
+    border-radius: 5px;
+    border: none;
+}
+.btn-color-my:active{
+    color: white;
+    background-color: rgb(245, 182, 100);
+    border-radius: 5px;
+    border: none;
+}
+.scroll-to-top {
+    position: fixed;
+    bottom: 72px;
+    right: 20px;
+    font-size: 24px;
+}
+.wp{
+
+    color: white;
+    background-color: rgb(76, 219, 76);
+    border-radius: 5px;
+    font-size: 16px !important;
+    display: inline-block;
+    margin: auto;
+}
+.bg-colors{
+    background-color: gray;
+}
+.buttons{
+    padding: 9px 16px;
+    border: none;
+    font-size: 20px;
+    color:white;
+    background-color: rgb(179, 158, 41);
+    border-radius: 8px;
+}
+.content {
+    padding-top: 55px;
+}
+.my-btn{
+    display: flex;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.font-size-my{
+    font-size: 13px;
+}
+
+
+/* Styling for the form popup */
+#form-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Add more styling for your form and buttons as needed */
+/* Styling for the form popup */
+#form-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
+
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #000;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Increase the font size and input size for better visibility */
+.popup-content input {
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+}
+
+.popup-content label {
+    display: block;
+    text-align: left;
+}
+
+
+.decotraion{
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+
+.navbars {
+    background-color: #333;
+    overflow: hidden;
+    float: left;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbars a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .navbars a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .navbars a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .readmoremydes{
+    color:red
+  }
+  .whatsapp{
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    color: white;
+    background-color: rgb(76, 219, 76);
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 32px;
+  }

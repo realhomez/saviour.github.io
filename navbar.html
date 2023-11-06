@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstap assets -->
+    <link rel="stylesheet" href="assets/css/css/bootstrap.css"> 
+    <link rel="stylesheet" href="assets/css/css/bootstrap.min.css">
+
+    <!-- This is my coutm css -->
+    <link rel="stylesheet" href="assets/css/css/style.css">
+
+    <!-- This is for font -->
+    <link rel="stylesheet" href="assets/icons/css/all.css">
+    <title>Home page</title>
+</head>
+<body>
+<section class="content">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="http://127.0.0.1:5500/">Your Logo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        </div>        
+    </nav>
+
+    <!-- hero section -->
+
+    
+        <div class="row">
+            <div class="col-4">
+                <form id="myForm">
+                    <h3 class="text-center">contact us</h3>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" name="name">
+                        <span id="nameError" class="error text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email" name="email">
+                        <span id="emailError" class="error text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" class="form-control" id="phone" placeholder="Your Phone Number" name="number">
+                        <span id="phoneError" class="error text-danger"></span>
+                    </div>
+                    <input value="submit" type="submit" class="btn btn-primary" name="submit">
+                </form>        
+            </div>
+        </div>
+    </div>
+</section>
+<div class="row w-100 vh-100 border border-2">
+    
+</div>    
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/popper.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/css/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/css/js/bs.min.js"></script>
+
+<!-- my coustm js -->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
